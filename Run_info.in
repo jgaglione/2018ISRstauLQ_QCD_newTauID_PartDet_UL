@@ -13,8 +13,8 @@ ApplyTauIDSF false
 TauIdSFsByDM false # Tau ID scale factors that are decay mode (DM) - dependent. If using di-tau triggers and tau-pt > 40 GeV, this are the recommended SFs.
 TauSFforEmbeddedSamples false
 
-ApplyTauAntiEleSF true
-ApplyTauAntiMuSF true
+ApplyTauAntiEleSF false
+ApplyTauAntiMuSF false
 
 ApplyISRZBoostSF true # Z-boost weight corrections derived for ISR+stau analysis (SUS-19-002)
 ApplySUSYZBoostSF false # Official Z-boost weight corrections derived by the SUSY PAG.
